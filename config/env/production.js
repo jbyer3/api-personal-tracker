@@ -251,6 +251,7 @@ module.exports = {
     *                                                                          *
     ***************************************************************************/
     onlyAllowOrigins: [
+      'https://jasonbyer.dev',
       'https://example.com',
       'https://staging.example.com',
     ],
