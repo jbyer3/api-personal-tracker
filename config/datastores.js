@@ -49,11 +49,7 @@ module.exports.datastores = {
     *                                                                          *
     ***************************************************************************/
     adapter: 'sails-postgresql',
-    host: 'ec2-184-72-237-95.compute-1.amazonaws.com',
-    port: '5432',
-    user: 'uanqfgculnebra',
-    password: 'd9b2b51cb563c1ba1f210a5db584c33c388c2c375c53b9d5862f48e53086608e',
-    url: 'postgres://uanqfgculnebra:d9b2b51cb563c1ba1f210a5db584c33c388c2c375c53b9d5862f48e53086608e@ec2-184-72-237-95.compute-1.amazonaws.com:5432/dba4lmaqq7r20b',
+    url: process.env.DATABASE_URL,
   },
 
 
