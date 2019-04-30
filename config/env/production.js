@@ -373,7 +373,7 @@ module.exports = {
   *                                                                         *
   ***************************************************************************/
   custom: {
-    baseUrl: 'https://protected-temple-67950.herokuapp.com/',
+    baseUrl: 'localhost:1337',
     internalEmailAddress: 'support@example.com',
 
     // mailgunDomain: 'mg.example.com',
